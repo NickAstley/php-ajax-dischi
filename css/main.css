@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E2D3B;
+}
+
+header {
+    background-color: #2E3A46;
+}
+
+.spotify-logo {
+    width: 50px;
+}
+
+.album-card {
+    background-color: #2E3A46;
+    color: #6E6D6E;
+}
+
+.album-author {
+    font-size: 1.2rem;
+}
