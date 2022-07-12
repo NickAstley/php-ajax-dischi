@@ -6,9 +6,7 @@ header("Content-Type: application/json");
 
 echo json_encode([
     "success" => true,
-    "response" => [
-        $albums
-    ]
+    "albums" => $albums
 ]);
 
 ?>
